@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Gotham";
+  src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #dfe7ee;
+}
+
+.header_top {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dfe7ee;
+  padding: 7px;
+}
+
+.header_top img {
+  height: 90%;
+}
+
+.material-icons-round {
+  font-size: 24px;
+  color: #717171;
+  margin-right: 7px;
+}
+
+.weather {
+  width: 23px;
+  height: 18px;
+  background: transparent url("../assets/cloud.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.weather_temp {
+  text-align: left;
+  font: normal normal 500 18px/21px Work Sans;
+  letter-spacing: -0.45px;
+  color: #717171;
+  opacity: 1;
+  padding-left: 70px;
+  display: flex;
+}
+
+.degree {
+  padding-top: 8px;
+  font: normal normal 500 10px/11px Work Sans;
+  letter-spacing: -0.25px;
+}
+
+.header_text--weather {
+  text-align: left;
+  font: normal normal normal 14px/16px Work Sans;
+  letter-spacing: -0.35px;
+  color: #717171;
+  opacity: 1;
+  margin-left: 45px;
+}
+
+.header_text--subscribe {
+  letter-spacing: -0.35px;
+  color: #717171;
+  opacity: 1;
+  text-align: right;
+  font: normal normal 600 14px/16px Work Sans;
+  margin: 0;
+}
+
+.header_text--subscribe-mobile {
+  display: none;
+}
+
+.header_logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header_logo-container img {
+  width: 40%;
+  height: 100%;
+}
+
+.nav-link {
+  text-align: center;
+  font: normal normal 600 16px/19px Work Sans;
+  letter-spacing: -0.4px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-right: -15px;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+.header_bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header_bottom--title {
+  text-align: left;
+  font: normal normal bold 15px/17px Gotham;
+  letter-spacing: 0px;
+  color: #005077;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.header_bottom--text {
+  text-align: center;
+  font: normal normal normal 16px/19px Work Sans;
+  letter-spacing: -0.4px;
+  color: #000000;
+  opacity: 1;
+}
+
+.red-button {
+  width: 11px;
+  height: 11px;
+  background-color: #c60c30;
+  border-radius: 50px;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.news {
+  border-right: 1px solid #dfe7ee;
+  padding: 12px;
+
+}
+
+.news_container {
+  display: flex;
+ position: absolute;
+right: 150px;
+
+}
+
+.news_title--big {
+  font: normal normal 900 34px/38px Gotham;
+  letter-spacing: -0.72px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 40px;
+}
+
+.news_sub-title--big {
+  text-align: left;
+  font: normal normal 400 18px/21px Work Sans;
+  letter-spacing: -0.45px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dfe7ee;
+  margin-bottom: 0;
+}
+
+.news_title--medium {
+  text-align: left;
+  font: normal normal bold 24px/26px Gotham;
+  letter-spacing: -0.48px;
+  color: #000000;
+  opacity: 1;
+}
+
+.news_sub-title--medium {
+  text-align: left;
+  font: normal normal normal 16px/19px Work Sans;
+  letter-spacing: -0.4px;
+  color: #000000;
+  opacity: 1;
+}
+
+.news_small {
+  border-bottom: 1px solid #dfe7ee;
+}
+.news_small--title {
+  font: normal normal bold 14px/16px Gotham;
+  letter-spacing: -0.35px;
+  color: #005077;
+  text-transform: uppercase;
+  opacity: 1;
+  padding-top: 8px;
+}
+
+.news_small--bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.news_small--bottom h6 {
+  position: relative;
+}
+
+.news_small--sub-title {
+  text-align: left;
+  font: normal normal bold 18px/20px Gotham;
+  letter-spacing: -0.36px;
+  color: #000000;
+  opacity: 1;
+}
+
+.news_img--preview {
+  width: 160px;
+  height: 106px;
+  background: transparent url("../assets/FotoJet-1.png") 0% 0% no-repeat
+    padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.news_small--bottom_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.news_right {
+
+}
+
+.news_right p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.news_img--preview-2 {
+  width: 255px;
+  height: 197px;
+  background: transparent url("../assets/cxl-fracaso-alianza-electoral-1.png")
+    0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  nav {
+    display: none;
+  }
+
+  .header_top {
+    display: none;
+  }
+  header {
+    border-bottom: none;
+  }
+
+  .header_bottom {
+    display: none;
+  }
+
+  .header_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .header_logo-container::before {
+    content: url("../assets/ic_menu_24px.svg");
+    width: 18px;
+    height: 12px;
+  }
+  .header_logo-container::after {
+    content: url("../assets/zoom-2.svg");
+    width: 18px;
+    height: 12px;
+  }
+
+  .header_text--subscribe-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 600 15px Work Sans;
+    letter-spacing: -0.33px;
+    color: #717171;
+    opacity: 1;
+    border: 1px solid #dde5ed;
+    border-radius: 5px;
+    position: absolute;
+    top: 70px;
+    height: 31px;
+    background: #f7f9f9 0% 0% no-repeat padding-box;
+    padding: 20px;
+  }
+
+  .news_container {
+    position: relative;
+    top: 60px;
+  }
+  
+  .news {
+    border-right: none;
+  }
+}
