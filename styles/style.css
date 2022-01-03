@@ -143,14 +143,14 @@ a:visited {
 .news {
   border-right: 1px solid #dfe7ee;
   padding: 12px;
-
 }
 
 .news_container {
   display: flex;
- position: absolute;
-right: 150px;
-
+  position: absolute;
+  right: 150px;
+  position: relative;
+  right: 0;
 }
 
 .news_title--big {
@@ -234,7 +234,6 @@ right: 150px;
 }
 
 .news_right {
-
 }
 
 .news_right p {
@@ -304,7 +303,7 @@ right: 150px;
     position: relative;
     top: 60px;
   }
-  
+
   .news {
     border-right: none;
   }
